@@ -858,6 +858,7 @@ export interface ApiProductProduct extends Schema.CollectionType {
       'manyToMany',
       'api::sub-category.sub-category'
     >;
+    type: Attribute.Enumeration<['Trending', 'Normal', 'Featured']>;
     createdAt: Attribute.DateTime;
     updatedAt: Attribute.DateTime;
     publishedAt: Attribute.DateTime;
