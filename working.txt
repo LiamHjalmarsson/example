@@ -1,0 +1,19 @@
+digitalocean database 15$ 
+
+DATABASENAME=strapi-demo 
+connection sing = postgresql://doadmin:AVNS_QSUbup9QdgnMkLi5rHZ@strapi-demo-do-user-14575161-0.g.db.ondigitalocean.com:25060/defaultdb?sslmode=require
+
+weppservice 12 $ 
+project hammerhead-app 
+ENV varibales 
+APP_KEYS=iiEztomhxnyB2nKExe1hvQ==,ln8rFZwCWMVUBXf+ub5Cqg==,2ThlGMWeuS+fMx6KuK8CjQ==,LsXbxis9CGsJLQhqKNpkWg==
+API_TOKEN_SALT=8GJaajlj1PtU625usygW5Q==
+ADMIN_JWT_SECRET=jaTim4v0nmWm1wEnK22KMA==
+TRANSFER_TOKEN_SALT=mrEI6ziQHi/EKY021eQ6Yg==
+DATABASE_URL=postgresql://doadmin:AVNS_QSUbup9QdgnMkLi5rHZ@strapi-demo-do-user-14575161-0.g.db.ondigitalocean.com:25060/defaultdb?sslmode=require
+DATABASE_CA=${strapi-demo.CA_CERT}
+JWT_SECRET=Rwwz0R8RYrI9cgzxxfvQ9g==
+NODE_ENV=production / development
+
+
+Ports 1337
